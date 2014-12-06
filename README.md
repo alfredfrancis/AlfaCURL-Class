@@ -18,9 +18,10 @@ Examples
 	$content=($curl->post($url,$post_data,$ref));
 	echo $content;
 	?>
-	```
+```
 	
 2. To perform HTTP GET
+
 ```php
   <?
   include_once "alfa.curl.class.php";
@@ -30,4 +31,4 @@ Examples
 	$content=($curl->get($url));
 	echo $content;
 	?>
-	```
+```
